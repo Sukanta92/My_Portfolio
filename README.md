@@ -17,7 +17,7 @@ And the the resistive force is directly proportional to the coefficient of drag 
 A sedan (example: as shown below)is typically known for its stylish design & minimum drag force.
 However, the rear end shape of a sendan is crutial for its wake region.
 Optimizing the shape may lead to minimizing the coefficient of drag & hence improve fuel efficiency. \
-![](/images/Image_3.JPG)
+![](/images/Image3.JPG)
 
 ## Problem Statement
 To minimize drag, i.e. Cd, 4 paramters are being considered to optimize the sedan's rear body shape as shown below: \
