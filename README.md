@@ -6,4 +6,4 @@ Data Analytics Projects
 * Various machine learning tools applied to perform analysis.
 * Acuuracy for all analysis were compared to get the best methodology.
 
-![](https://github.com/Sukanta92/My_Portfolio/blob/main/images/Temp.JPG)
+![](/images/Temp.JPG)
