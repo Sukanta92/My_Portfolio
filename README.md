@@ -6,4 +6,7 @@ Data Analytics Projects
 * Various machine learning tools applied to perform analysis.
 * Acuuracy for all analysis were compared to get the best methodology.
 
-![](/images/Temp.JPG)
+## Background
+Aerodynamic drag is the resistance offered by incoming air flow over an object under motion. The basic formula to equate this resistive force is:
+
+![](/images/Image_1.JPG)
