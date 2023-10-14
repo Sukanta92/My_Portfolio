@@ -4,7 +4,7 @@ Data Analytics Projects
 * This is a surrogate tool which uses aerodynamic loadcase datasets to perform predictive analytics for product optimization.
 * Over 1000 datasets were scraped from server & preprocessed.
 * Various machine learning tools applied to perform analysis.
-* Acuuracy for all analysis were compared to get the best methodology.
+* Accuracy for all analysis were compared to get the best methodology.
 
 ## Background
 Aerodynamic drag is the resistance offered by incoming air flow over an object under motion. Formula to equate this resistive force: \
@@ -24,13 +24,14 @@ To minimize drag, i.e. Cd, 4 paramters are being considered to optimize the seda
 ![](/images/Image_1.JPG)
 
 ## Dataset
-The physics was built using a simulation tool. The virtual car model was given as input to this tool & the simulation was run for 23000 iterations. \
-Following parameters were obtained as output in CSV (Comma Separated Values) format: Iteration, Continuity, X-momentum, Y-momentum, Z-momentun, Cd. \
+The physics was built using a simulation tool. The virtual car model was given as input to this tool & the simulation was run for 23000 iterations.
+Following parameters were obtained as output in CSV (Comma Separated Values) format: \
+Iteration, Continuity, X-momentum, Y-momentum, Z-momentun, Cd. \
 For each simulation the Cd average of last 14000 iterations were to be considered as the Cd value of that simulation, as shown in below figure. \
 ![](/images/Image_4.JPG) \
 \
 Similar simulations, which were performed & already present in the server space, were collected itnto the database folder. \
-1000 such CSV files were collected, each having a unique combination of L<sub>T</sub>, ${\theta}$<sub>T</sub>, L<sub>D</sub> and ${\theta}$<sub>D</sub>. 
+1000 such CSV files were collected, each having a unique combination of L<sub>T</sub>, &theta;$<sub>T</sub>, L<sub>D</sub> and &theta;$<sub>D</sub>. 
 
 ## Database Management
 Using MYSQL following tasks were performed: 
