@@ -33,7 +33,7 @@ Similar simulations, which were performed & already present in the server space,
 1000 such CSV files were collected, each having a unique combination of L<sub>T</sub>, ${\theta}$<sub>T</sub>, L<sub>D</sub> and ${\theta}$<sub>D</sub>. 
 
 ## Database Management
-Using MYSQL follwoing tasks were performed: 
+Using MYSQL following tasks were performed: 
 1. Average values of last 14000 iterations' Cd values were calculated. 
 2. A new table was created which stored Cd averaged values of 1000 simulations. 
 
