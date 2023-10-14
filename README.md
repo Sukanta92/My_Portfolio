@@ -35,12 +35,13 @@ Similar simulations, which were performed & already present in the server space,
 
 ## Database Management
 Using MYSQL following tasks were performed: 
-1. Average values of last 14000 iterations' Cd values were calculated. 
-2. A new table was created which stored Cd averaged values of 1000 simulations. 
+1. From each simulation's 23000 iterations, average values of last 14000 iterations' Cd values were calculated. 
+2. A new table was created which stored Cd averaged values of 1000 simulations.
+3. This table is then joined with the 'design_of_experiment table' and stored as 'result_summary' table.
 
 The code snapshot used to perform these tasks is shown below: \
 ![](/images/Image_5.jpeg) \
-Finally, the table contained following attributes: \
+Finally, the 'result_ummary' table contained following attributes: \
 model_id, trunk_length, trunk_angle, bumper_length, bumper_angle, cd_value 
 
 ## Data Analytics
