@@ -37,7 +37,7 @@ Using MYSQL follwoing tasks were performed: \
 1. Average values of last 14000 iterations' Cd values were calculated. \
 2. A new table was created which stored Cd averaged values of 1000 simulations. \
 The code snapshot used to perform these tasks is shown below: \
-![](/images/Image_5.JPEG) \
+![](/images/Image_5.jpeg) \
 Finally, the table contained following attributes: \
 model_id, trunk_length, trunk_angle, bumper_length, bumper_angle, cd_value \
 
